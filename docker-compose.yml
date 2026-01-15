@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: rest-app
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
